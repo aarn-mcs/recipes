@@ -53,7 +53,9 @@
                     @endif
                 </div>
                 <div class="uk-margin-medium-top">
-                    <a href="index.html" class="md-btn md-btn-primary md-btn-block md-btn-large">Sign In</a>
+                    <button type="submit" class="btn btn-primary">
+                        Login
+                    </button>
                 </div>
                 <div class="uk-grid uk-grid-width-1-3 uk-grid-small uk-margin-top">
                     <div><a href="#" class="md-btn md-btn-block md-btn-facebook" data-uk-tooltip="{pos:'bottom'}"

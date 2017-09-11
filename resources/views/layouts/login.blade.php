@@ -246,19 +246,6 @@
             <input type="text" class="header_main_search_input"/>
             <button class="header_main_search_btn uk-button-link"><i class="md-icon material-icons">&#xE8B6;</i>
             </button>
-            <script type="text/autocomplete">
-                    <ul class="uk-nav uk-nav-autocomplete uk-autocomplete-results">
-                        {{~items}}
-                <li data-value="{{ $item.value }}">
-                            <a href="{{ $item.url }}" class="needsclick">
-                                {{ $item.value }}<br>
-                                <span class="uk-text-muted uk-text-small">{{{ $item.text }}}</span>
-                            </a>
-                        </li>
-                        {{/items}}
-                </ul>
-
-            </script>
         </form>
     </div>
 </header><!-- main header end -->
