@@ -38,7 +38,7 @@
     <script type="text/javascript" src="bower_components/matchMedia/matchMedia.addListener.js"></script>
     <link rel="stylesheet" href="assets/css/ie.css" media="all">
     <![endif]-->
-
+    @yield('style')
 </head>
 <body class="disable_transitions sidebar_main_open sidebar_main_swipe">
 <!-- main header -->
@@ -152,7 +152,7 @@
 
             </li>
             <li title="Recipes">
-                <a href="page_invoices.html">
+                <a href="{{route('recipes')}}">
                     <span class="menu_icon"><i class="material-icons">&#xE53E;</i></span>
                     <span class="menu_title">Recipes</span>
                 </a>
@@ -218,7 +218,7 @@
 <!-- altair common functions/helpers -->
 <script src="{{asset('theme/assets/js/altair_admin_common.min.js')}}"></script>
 
-
+@yield('javascript')
 <script>
     $(function () {
         if (isHighDensity()) {
@@ -454,5 +454,6 @@
 
     });
 </script>
+
 </body>
 </html>

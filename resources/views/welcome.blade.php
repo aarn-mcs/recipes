@@ -53,7 +53,7 @@
                     @endif
                 </div>
                 <div class="uk-margin-medium-top">
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" class="md-btn md-btn-primary md-btn-wave-light waves-effect waves-button waves-light">
                         Login
                     </button>
                 </div>

@@ -16,3 +16,6 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
 Route::get('/profile', 'ProfileController@profile')->name('profile');
+Route::get('/recipes', 'RecipesController@index')->name('recipes');
+Route::get('/details', 'RecipesController@details')->name('details');
+
